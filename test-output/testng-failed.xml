@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
   <test thread-count="5" parallel="tests" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCaces.TC3_LoginTestDDT">
+      <class name="testCaces.TC4_priceComparisonTest">
         <methods>
+          <include name="mostChipestProduct"/>
           <include name="tearDown"/>
-          <include name="loginTestDD" invocation-numbers="0 1 2"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCaces.TC3_LoginTestDDT -->
+      </class> <!-- testCaces.TC4_priceComparisonTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

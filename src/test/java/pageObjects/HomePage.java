@@ -20,6 +20,7 @@ public class HomePage extends BaseObject {
 	WebElement Login;
 	
 	
+	
 	public void clickMyAccount() {
 		System.out.println("In the clickMyAccount method");
 		lnkMyAccount.click();
@@ -33,5 +34,6 @@ public class HomePage extends BaseObject {
 	public void clickLogin() {
 		Login.click();
 	}
+	
 
 }

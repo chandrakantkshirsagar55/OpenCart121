@@ -9,7 +9,8 @@
         <parameter name="browser" value="chrome" />
         <classes>
             <!-- Uncomment or add additional test classes as needed -->
-            <class name="testCaces.TC2_loginTest" />
+            <!-- <class name="testCaces.TC2_loginTest" /> -->
+            <class name="testCaces.TC4_priceComparisonTest" />
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

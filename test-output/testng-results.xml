@@ -2,15 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-27T08:12:50 IST" name="Suite" finished-at="2024-12-27T08:13:04 IST" duration-ms="14111">
+  <suite started-at="2024-12-29T10:48:20 IST" name="Suite" finished-at="2024-12-29T10:48:33 IST" duration-ms="12970">
     <groups>
-      <group name="Sanity">
-        <method signature="TC2_loginTest.Login()[pri:0, instance:testCaces.TC2_loginTest@5ba3f27a]" name="Login" class="testCaces.TC2_loginTest"/>
-      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2024-12-27T08:12:50 IST" name="Test" finished-at="2024-12-27T08:13:04 IST" duration-ms="14111">
-      <class name="testCaces.TC2_loginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCaces.TC2_loginTest@5ba3f27a]" started-at="2024-12-27T08:12:50 IST" name="setup" finished-at="2024-12-27T08:13:02 IST" duration-ms="11785" status="PASS">
+    <test started-at="2024-12-29T10:48:20 IST" name="Test" finished-at="2024-12-29T10:48:33 IST" duration-ms="12970">
+      <class name="testCaces.TC4_priceComparisonTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCaces.TC4_priceComparisonTest@614ca7df]" started-at="2024-12-29T10:48:21 IST" name="setup" finished-at="2024-12-29T10:48:33 IST" duration-ms="11953" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login()[pri:0, instance:testCaces.TC2_loginTest@5ba3f27a]" started-at="2024-12-27T08:13:02 IST" name="Login" finished-at="2024-12-27T08:13:03 IST" duration-ms="1630" status="PASS">
+        <test-method signature="mostChipestProduct()[pri:0, instance:testCaces.TC4_priceComparisonTest@614ca7df]" started-at="2024-12-29T10:48:33 IST" name="mostChipestProduct" finished-at="2024-12-29T10:48:33 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCaces.TC2_loginTest@5ba3f27a]" started-at="2024-12-27T08:13:03 IST" name="tearDown" finished-at="2024-12-27T08:13:04 IST" duration-ms="268" status="PASS">
+        </test-method> <!-- mostChipestProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCaces.TC4_priceComparisonTest@614ca7df]" started-at="2024-12-29T10:48:33 IST" name="tearDown" finished-at="2024-12-29T10:48:33 IST" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCaces.TC2_loginTest -->
+      </class> <!-- testCaces.TC4_priceComparisonTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
